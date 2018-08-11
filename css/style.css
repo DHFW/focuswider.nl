@@ -51,6 +51,8 @@ body {
 body {
   background: url(/images/HeaderBG.jpg) top center repeat-x #fff;
   font-size: 13px;
+  display: flex;
+  flex-direction: column;
 }
 
 a {
@@ -80,10 +82,7 @@ a:hover {
 }
 
 #page-wrap {
-  margin: 0px auto -250px;
-  min-height: 100%;
-  height: auto !important;
-  height: 100%;
+  flex: 1 0 auto;
 }
 
 #contentWrapper {
@@ -166,9 +165,11 @@ ul#main-menu li a:hover {
 
 /* FOOTER  */
 #footer {
-  height: 250px;
+  flex-shrink: 0;
   background: url(/images/footerBG.jpg) repeat-x #444;
   padding-top: 10px;
+  margin-top: 15px;
+  padding: 15px;
 }
 
 #footer-inside {
