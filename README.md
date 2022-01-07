@@ -1,6 +1,6 @@
-# focuswider.com
+# focuswider.nl
 
-Focuswider.com static website
+Focuswider.nl static website
 
 # development
 
